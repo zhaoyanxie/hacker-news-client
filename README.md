@@ -1,4 +1,4 @@
-# Fetch + React lab
+# Hacker News Lab
 
 ### Getting started
 - Fork and clone repo
