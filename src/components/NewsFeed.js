@@ -1,17 +1,18 @@
 import React, { Component } from "react";
+import { articles } from '../seedData';
+import Article from './Article';
 
 class NewsFeed extends Component {
   constructor() {
     super();
     this.state = {
-      articles: []
+      articles: articles
     };
   }
 
   render() {
     return this.state.articles.map((article, i) => {
-      // TODO: start coding!
-      return <li key={i}></li>;
+      return <Article key={i} articleObj={article} /> ;
     });
   }
 }
